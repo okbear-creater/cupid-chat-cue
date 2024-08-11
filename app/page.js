@@ -122,11 +122,11 @@ export default function ConversationSpark() {
             ) : (
               <label htmlFor="file-upload" className={styles.dropzoneLabel}>
                 <p className={styles.dropzoneText}>
-                  Drag and drop your romantic chat here, or click to select a file
+                  Drag and drop your chat screenshot here, or click to select a file
                 </p>
               </label>
             )}
-            {file && <p className={styles.fileName}>{file.name}</p>}
+            
           </div>
           <button 
             type="submit" 
